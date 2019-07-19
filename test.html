@@ -8,16 +8,53 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <p>
-        テストですがPriter無事機能しました。
-      </p>
-      <p>
-        ちなみに一度ディレクトリ作り直しました。
-      </p>
-      <p>
-        CSSリンクさせました
-      </p>
+    <h1>HTML/CSSのおさらい</h1>
+    <h2>HTMLタグ</h2>
+    <h3>&lt;ｐ&gt; タグ</h3>
+    <pre>
+    &lt;p>テスト&lt;/p>
+    &lt;p>テスト&lt;/p>
+    </pre>
+    <div class="sample">
+      <p>テスト</p>
+      <p>テスト</p>
     </div>
+    <span>前後が改行される</span>
+
+    <h3>&lt;span&gt;タグ</h3>
+    <pre>
+    &lt;span>テスト&lt;/span>
+    &lt;span>テスト&lt;/span>
+    </pre>
+    <div class="sample">
+      <span>テスト</span>
+      <span>テスト</span>
+    </div>
+    <p>こっちは改行されない</p>
+
+    <h3>&lt;br&gt;タグ</h3>
+    <p>改行用のタグ、閉じタグがいらない</p>
+    <br />
+    <br />
+    <h2>ClassとID</h2>
+    <p>
+      Class,IDとは要素に名札をつけるような物です、Classは同じ名札を何個でも付けることができますが<br />IDは一つの要素にしか付けることができません
+    </p>
+    <p>
+      ClassにCSSを適用するにはタグ.クラス名｛｝のように記述します、IDの場合は.の代わりに#を使います。
+    </p>
+    <br />
+    <br />
+    <strong>Tips:文字列としてタグを使う方法</strong>
+    <p>&lt;p&gt;などタグとして認識されてしまう要素を文字列として表示するには</p>
+    <p>
+      &lt;を<strong>&amp;lt;</strong>、&gt;を<strong>&amp;gt;</strong>と記述するとWebに表示させられる
+    </p>
   </body>
+  <footer>
+    <br />
+    <p style="font-size: 15px; color: gray">
+      P.S Gitの使い方が少しわかった気がした 2019/7/19　PM19：45の夜...
+    </p>
+  </footer>
 </html>
