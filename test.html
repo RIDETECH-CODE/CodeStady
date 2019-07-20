@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>HTML/CSS wiki</title>
   </head>
   <body>
-    <h1>HTML/CSSのおさらい</h1>
+    <header><h1>HTML/CSSのおさらい</h1></header>
     <h2>HTMLタグ</h2>
     <h3>&lt;ｐ&gt; タグ</h3>
     <pre>
@@ -34,27 +34,33 @@
 
     <h3>&lt;br&gt;タグ</h3>
     <p>改行用のタグ、閉じタグがいらない</p>
-    <br />
-    <br />
-    <h2>ClassとID</h2>
+    <h3>&lt;Class&gt;タグ</h3>
     <p>
-      Class,IDとは要素に名札をつけるような物です、Classは同じ名札を何個でも付けることができますが<br />IDは一つの要素にしか付けることができません
+      要素に名札をつける、Classは同じ名札を何個でも付けることができる、これを利用して複数の要素に一斉にCSSを適用することができる。
     </p>
     <p>
-      ClassにCSSを適用するにはタグ.クラス名｛｝のように記述します、IDの場合は.の代わりに#を使います。
+      ClassにCSSを適用するにはタグ.クラス名｛｝のように記述する。
     </p>
-    <br />
-    <br />
-    <strong>Tips:文字列としてタグを使う方法</strong>
+    <h3>&lt;ID&gt;タグ</h3>
+    <p>
+      IDはClassと同じく要素に名札を付ける事ができる、しかしこちらは一つの要素にしか付けることができない。
+    </p>
+    <p>CSSを適用する場合は.（ドット）の代わりに#を使う。</p>
+      <br />
+      <br />
+      <strong>Tips:文字列としてタグを使う方法</strong>
+    </p>
+
     <p>&lt;p&gt;などタグとして認識されてしまう要素を文字列として表示するには</p>
     <p>
       &lt;を<strong>&amp;lt;</strong>、&gt;を<strong>&amp;gt;</strong>と記述するとWebに表示させられる
     </p>
+
+    <footer>
+      <br />
+      <p style="font-size: 15px; color: gray">
+        P.S 文章の言い回しを統一した、日本語って難しいね...
+      </p>
+    </footer>
   </body>
-  <footer>
-    <br />
-    <p style="font-size: 15px; color: gray">
-      P.S Gitの使い方が少しわかった気がした 2019/7/19　PM19：45の夜...
-    </p>
-  </footer>
 </html>

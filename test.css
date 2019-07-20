@@ -1,11 +1,16 @@
 @charset "utf-8";
 div.sample {
   background-color: #0ff;
+  width: 15em;
 }
 pre {
   background-color: #888;
   color: #ddd;
+  width: 15em;
 }
 samp {
   background-color: #0ff;
+}
+body {
+  margin: 50px;
 }
