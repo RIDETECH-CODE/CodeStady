@@ -1,103 +1,131 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <link rel="stylesheet" href="test.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML/CSS wiki</title>
+  </head>
 
-<head>
-  <link rel="stylesheet" href="test.css" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>HTML/CSS wiki</title>
-</head>
-
-<body>
-  <header>
-    <h1>HTML/CSSのおさらい</h1>
-  </header>
-  <h2>HTMLタグ</h2>
-  <h3>&lt;ｐ&gt; タグ</h3>
-  <pre>
+  <body>
+    <header>
+      <h1>HTML/CSS/JSのおさらい</h1>
+    </header>
+    <h2>HTMLタグ</h2>
+    <h3>&lt;ｐ&gt; タグ</h3>
+    <pre>
     &lt;p>テスト&lt;/p>
     &lt;p>テスト&lt;/p>
     </pre>
-  <div class="sample">
-    <p>テスト</p>
-    <p>テスト</p>
-  </div>
-  <span>前後が改行される</span>
+    <div class="sample">
+      <p>テスト</p>
+      <p>テスト</p>
+    </div>
+    <span>前後が改行される</span>
 
-  <br><br>
+    <br /><br />
 
-  <h3>&lt;span&gt;タグ</h3>
-  <pre>
+    <h3>&lt;span&gt;タグ</h3>
+    <pre>
     &lt;span>テスト&lt;/span>
     &lt;span>テスト&lt;/span>
     </pre>
-  <div class="sample">
-    <span>テスト</span>
-    <span>テスト</span>
-  </div>
-  <p>こっちは改行されない</p>
+    <div class="sample">
+      <span>テスト</span>
+      <span>テスト</span>
+    </div>
+    <p>こっちは改行されない</p>
 
-  <h3>&lt;br&gt;タグ</h3>
-  <p>改行用のタグ、閉じタグがいらない</p>
-  <h3>&lt;Class&gt;タグ</h3>
-  <p>
-    要素に名札をつける、Classは同じ名札を何個でも付けることができる、これを利用して複数の要素に一斉にCSSを適用することができる。
-  </p>
-  <p>
-    ClassにCSSを適用するにはタグ.クラス名｛｝のように記述する。
-  </p>
-  <h3>&lt;ID&gt;タグ</h3>
-  <p>
-    IDはClassと同じく要素に名札を付ける事ができる、しかしこちらは一つの要素にしか付けることができない。
-  </p>
-  <p>CSSを適用する場合は.（ドット）の代わりに#を使う。</p>
-  <br />
-  <br />
-  <strong>Tips:文字列としてタグを使う方法</strong>
-  </p>
-
-  <p>&lt;p&gt;などタグとして認識されてしまう要素を文字列として表示するには</p>
-  <p>
-    &lt;を<strong>&amp;lt;</strong>、&gt;を<strong>&amp;gt;</strong>と記述するとWebに表示させられる
-  </p>
-  <br>
-  <br>
-  <h3>&lt;img&gt;タグ</h3>
-  <p>imgは画像を表示するタグ、src属性に画像のアドレス、alt属性に説明分を入れる</p>
-  <pre>&lt;img src="http://www.e-koinu.jp/event/free/koinu009.jpg" alt="puppy"></pre>
-  <div class="sample">
-    <img src="http://www.e-koinu.jp/event/free/koinu009.jpg" alt="puppy" style="height: 180px;">
-  </div>
-  <br>
-  <br>
-  <h3>&lt;a&gt;タグ</h3>
-  <p>aタグはリンクを作成することができる。href属性にリンク先のアドレス、要素内にはアドレスの代わりに表示する文字列を入力する。</p>
-  <pre>&lt;a href="http://www.tohoho-web.com/html/a.htm">aタグの説明&lt;/a></pre>
-  <div class="sample"><a href="http://www.tohoho-web.com/html/a.htm">aタグの説明</a></div>
-  <br><br>
-  <h3>&lt;button&gt;タグ</h3>
-  <p>buttonタグはボタンを作成することができる、入力を反映させたりいろいろな事に使える</p>
-  <pre>&lt;button>TEST&lt;/button></pre>
-  <div class="sample"><button>TEST</button></div>
-  <footer>
-    <br />
-    <br>
-    <strong>Tips:見出しタグ一覧で</strong>
-    <h1>ｈ1です</h1>
-    <h2>h2です</h2>
-    <h3>h3です</h3>
-    <h4>h4です</h4>
-    <h5>ｈ5です</h5>
-    <h6>h6です</h6>
-    <h6>hiroshiです</h6>
-    <br>
-    <br>
-    <br>
-    <p style="font-size: 15px; color: gray">
-      P.S 別環境に進捗を反映させようと思ったらコンフリクトしていろいろおかしくなりましたが、ブランチ切ったのを反映させていなかったのが原因らしく今は大丈夫です。
+    <h3>&lt;br&gt;タグ</h3>
+    <p>改行用のタグ、閉じタグがいらない</p>
+    <h3>&lt;Class&gt;タグ</h3>
+    <p>
+      要素に名札をつける、Classは同じ名札を何個でも付けることができる、これを利用して複数の要素に一斉にCSSを適用することができる。
     </p>
-  </footer>
-</body>
-
+    <p>
+      ClassにCSSを適用するにはタグ.クラス名｛｝のように記述する。
+    </p>
+    <h3>&lt;ID&gt;タグ</h3>
+    <p>
+      IDはClassと同じく要素に名札を付ける事ができる、しかしこちらは一つの要素にしか付けることができない。
+    </p>
+    <p>CSSを適用する場合は.（ドット）の代わりに#を使う。</p>
+    <br />
+    <br />
+    <strong>Tips:文字列としてタグを使う方法</strong>
+    <p>&lt;p&gt;などタグとして認識されてしまう要素を文字列として表示するには</p>
+    <p>
+      &lt;を<strong>&amp;lt;</strong>、&gt;を<strong>&amp;gt;</strong>と記述するとWebに表示させられる
+    </p>
+    <br />
+    <br />
+    <h3>&lt;img&gt;タグ</h3>
+    <p>
+      imgは画像を表示するタグ、src属性に画像のアドレス、alt属性に説明分を入れる
+    </p>
+    <pre>
+&lt;img src="http://www.e-koinu.jp/event/free/koinu009.jpg" alt="puppy"></pre
+    >
+    <div class="sample">
+      <img
+        src="http://www.e-koinu.jp/event/free/koinu009.jpg"
+        alt="puppy"
+        style="height: 180px;"
+      />
+    </div>
+    <br />
+    <br />
+    <h3>&lt;a&gt;タグ</h3>
+    <p>
+      aタグはリンクを作成することができる。href属性にリンク先のアドレス、要素内にはアドレスの代わりに表示する文字列を入力する。
+    </p>
+    <pre>
+&lt;a href="http://www.tohoho-web.com/html/a.htm">aタグの説明&lt;/a></pre
+    >
+    <div class="sample">
+      <a href="http://www.tohoho-web.com/html/a.htm">aタグの説明</a>
+    </div>
+    <br /><br />
+    <h3>&lt;button&gt;タグ</h3>
+    <p>
+      buttonタグはボタンを作成することができる、入力を反映させたりいろいろな事に使える
+    </p>
+    <pre>&lt;button>TEST&lt;/button></pre>
+    <div class="sample"><button>TEST</button></div>
+    <footer>
+      <br />
+      <br />
+      <strong>Tips:見出しタグ一覧で</strong>
+      <h1>ｈ1です</h1>
+      <h2>h2です</h2>
+      <h3>h3です</h3>
+      <h4>h4です</h4>
+      <h5>ｈ5です</h5>
+      <h6>h6です</h6>
+      <h6>hiroshiです</h6>
+      <br />
+      <br />
+      <br />
+      <h2>CSSの書き方</h2>
+      <p>CSSはHTMLに直接書き込む方法と別のファイルを読み込む方法がある、通常は外部ファイル読み込みを使う</p>
+      
+      <h2>CSSの効果</h2>
+       <h3>文字の色を変える</h3> 
+      <p>例　color:#f00</p>
+      <p style="color: #f00">こんな感じ</p>
+      <p>カラーコードの他rgb(255,255,255)や色名（red）などでも指定可能</p>
+      <br />
+      <h3>文字の大きさを変える</h3>
+      <p>例　font-size:100px</p>
+      <p style="font-size: 50px">こんな感じ</p>
+      <p>サイズの指定方法はpxの他にもたくさんあるので別途記述予定</p>
+      <br />
+      <br />
+      <p style="font-size: 15px; color: gray">
+        P.S
+        Reactはまだ早かった、Jsから勧めていこう…
+      </p>
+    </footer>
+  </body>
 </html>
