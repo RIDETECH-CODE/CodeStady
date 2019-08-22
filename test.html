@@ -103,10 +103,22 @@
       <h2>CSSの書き方</h2>
       <br />
       <p>
-        CSSはHTMLに直接書き込む方法と別のファイルを読み込む方法がある、通常は外部ファイル読み込みを使う
+        CSSはHTMLに直接書き込む方法（&gt;style>タグを使う）、と別のファイルを読み込む方法がある、通常は外部ファイル読み込みを使う
       </p>
       <br />
       <h2>CSSの効果</h2>
+      <h3>要素の大きさを変える</h3>
+      <p>例：　横 width:100px　縦 height:100px</p>
+      <div style="width:100px;background-color: #aaa;"><p>width:100px</p></div>
+      <br />
+      <div style="width:360px; height:50px;background-color: #aaa;">
+        <p>width:360px height:50px</p>
+      </div>
+      <div class="tips">
+        <p>Tips:画像などを画面幅いっぱいに表示する</p>
+        <p>要素を画面幅いっぱいに表示するときはwidth:100%と記述する</p>
+        <p>サイズの指定方法についてはあまりにもたくさんあるので別途紹介</p>
+      </div>
       <h3>文字の色を変える</h3>
       <p>例　color:#f00;</p>
       <p style="color: #f00">こんな感じ</p>
@@ -115,7 +127,6 @@
       <h3>文字の大きさを変える</h3>
       <p>例　font-size:100px;</p>
       <p style="font-size: 50px">こんな感じ</p>
-      <p>サイズの指定方法はpxの他にもたくさんあるので別途記述予定</p>
       <br />
       <h3>背景色を変える</h3>
       <p>例　background-coler:#f00;</p>
@@ -128,10 +139,34 @@
       <div style="background-color: forestgreen;">
         <p style="background-color: darkolivegreen; margin: 30px">こんな感じ</p>
       </div>
+      <h3>要素に影を追加する</h3>
+      <p>例： box-shadow:10px 10px 10px 10px rgba(0,0,0,0.4);</p>
+      <div style="box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);">
+        こんな感じ
+      </div>
       <br />
+      <p>
+        各属性の意味は左から横の長さ、縦の長さ、ぼかし範囲、広がり範囲、色です。
+      </p>
+      <p>
+        注：影が次の要素に隠れて見えない場合は要素にposition:relative;をかける
+      </p>
+      <p>
+        出典：<a href="https://demoyanote.com/2018/07/17/post-189/"
+          >https://demoyanote.com/2018/07/17/post-189/</a
+        >
+      </p>
+      <br />
+      <h2>JavaScriptの書き方</h2>
+      <p>
+        CSSと同く、&lt;script>タグを使うか外部ファイルに記述、属性に直接書き込む方法もある[?]
+      </p>
+      <h2>JavaScriptの効果</h2>
+      <h3>画面にアラートを出力</h3>
+      <button type="button" onclick=" alert(`こんな感じ`);">TEST</button>
+      <br /><br /><br />
       <p style="font-size: 15px; color: gray">
-        P.S CSS、わかってるつもりで書いてもだいたい上手く行かない。
-        
+        P.S RIDE+TECHページの模写をする、目標ができて楽しくなってきた
       </p>
     </div>
     <footer>

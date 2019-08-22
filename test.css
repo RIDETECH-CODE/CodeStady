@@ -47,12 +47,11 @@ pre {
 }
 .tips{
   border: solid 2px #000;
-  background-color:#555;
+  background-color:#fff;
   margin: 20px 0px;
 }
 .tips *{
   padding: 5px;
-  color: #bbb;
 }
 
 footer {
