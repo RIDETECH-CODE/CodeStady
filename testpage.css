@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
 }
 
@@ -7,8 +7,8 @@ body {
 }
 
 header {
-  height: 90px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+  height: 98px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 
@@ -18,30 +18,31 @@ li {
 
 /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
 .header-logo img {
-  width: 45px;
+  width: 52px;
   float: left;
-  margin: 25px;
+  margin: 30px 110px 10px;
 }
 
 .header-list {
   float: right;
   text-align: center;
-  margin: 32px;
-  font-size: 16px;
-  font-family: serif;
+  margin: 31px 106px;
+  font-size: 14px;
+  color: #555;
 }
 
-.header-list ul li{
+.header-list ul li {
   display: inline;
-  margin: 10px;
+  margin: 12.6px;
 }
+
 .main {
   background-color: #bdf7f1;
   height: 600px;
   text-align: center;
 }
 
-.main img{
+.main img {
   width: 100%;
 }
 
