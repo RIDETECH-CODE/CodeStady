@@ -35,15 +35,24 @@ li {
   display: inline;
   margin: 12.6px;
 }
-
-.main {
-  background-color: #bdf7f1;
-  height: 600px;
-  text-align: center;
+.mainImg {
+  width: 100%;
 }
 
-.main img {
-  width: 100%;
+.content {
+  display: flex;
+  height: 900px;
+}
+
+/*flexがいまいちわかってないので調べよう8月28日*/
+.mainColumn {
+  flex: 0 0 1000px;
+  background-color: chocolate;
+}
+
+.subColumn {
+  flex: 0 0 347px;
+  background-color: crimson;
 }
 
 footer {
