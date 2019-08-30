@@ -48,11 +48,18 @@ li {
 .mainColumn {
   flex: 0 0 1000px;
   background-color: chocolate;
+  margin-top: 60px;
+}
+
+.news {
+  margin: 22px 104px;
+  background-color: burlywood;
 }
 
 .subColumn {
   flex: 0 0 347px;
   background-color: crimson;
+  margin-top: 60px;
 }
 
 footer {

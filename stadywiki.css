@@ -3,19 +3,23 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   background-color: #458645;
 }
+
 header {
   font-size: 30px;
   color: #fff;
   background-color: #0fa45f;
 }
+
 .content {
   background-color: #fff;
   margin: 20px 50px;
   padding: 20px;
 }
+
 h2 {
   margin: 5px;
   color: #458645;
@@ -23,34 +27,24 @@ h2 {
   border-top: solid 3px #458645;
   border-bottom: solid 3px #458645;
 }
+
 h3::before {
   color: #458645;
   font-size: 30px;
   content: "|";
 }
-h3{
+
+h3 {
   margin: 5px 0px 5px -12px;
   padding: 5px 2.5px;
   font-size: 20px;
 }
-pre {
-  margin: 5px;
-  background-color: #888;
-  color: #ddd;
-  width: 40em;
-}
-.sample {
-  margin: 5px;
-  background-color: #0ff;
-  width: 15em;
-}
-.tips{
-  border: solid 2px #000;
-  background-color:#fff;
-  margin: 20px 0px;
-}
-.tips *{
+
+.tips {
   padding: 5px;
+  border: solid 2px #000;
+  background-color: #fff;
+  margin: 20px 0px;
 }
 
 footer {

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="stadywiki.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML/CSS/JS wiki</title>
+  </head>
+
+  <body>
+    <header>
+      HTML/CSS/JSのおさらいも兼ねてメモしておく場所
+    </header>
+    <div class="content">
+      <h2>HTMLタグ</h2>
+
+      <h3>&lt;ｐ&gt; タグ</h3>
+      <p>前後が改行される</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="html,result"
+        data-user="ridetech-code"
+        data-slug-hash="zYOzPPw"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="p"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/zYOzPPw/"> p</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>&lt;span&gt;タグ</h3>
+      <p>こっちは改行されない</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="html,result"
+        data-user="ridetech-code"
+        data-slug-hash="MWgoOXb"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="span"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/MWgoOXb/"> span</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>&lt;br&gt;タグ</h3>
+      <p>改行される、閉じタグがいらない</p>
+
+      <h3>&lt;Class&gt;タグ</h3>
+      <p>
+        要素に名札をつける、Classは同じ名札を何個でも付けることができる、これを利用して複数の要素に一斉にCSSを適用することができる。
+      </p>
+      <p>
+        ClassにCSSを適用するにはタグ.クラス名｛｝のように記述する。
+      </p>
+
+      <h3>&lt;ID&gt;タグ</h3>
+      <p>
+        IDはClassと同じく要素に名札を付ける事ができる、しかしこちらは一つの要素にしか付けることができない。
+      </p>
+      <p>CSSを適用する場合は.（ドット）の代わりに#を使う。</p>
+      <div class="tips">
+        <strong>Tips:文字列としてタグを使う方法</strong>
+        <p>
+          &lt;p&gt;などタグとして認識されてしまう要素を文字列として表示するには
+        </p>
+        <p>
+          &lt;を<strong>&amp;lt;</strong>、&gt;を<strong>&amp;gt;</strong>と記述するとWebに表示させられる
+        </p>
+      </div>
+
+      <h3>&lt;img&gt;タグ</h3>
+      <p>
+        imgは画像を表示するタグ、src属性に画像のアドレス、alt属性に説明分を入れる
+      </p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="html,result"
+        data-user="ridetech-code"
+        data-slug-hash="bGbRYmG"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="img"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/bGbRYmG/"> img</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>&lt;a&gt;タグ</h3>
+      <p>
+        aタグはリンクを作成することができる。href属性にリンク先のアドレス、要素内にはアドレスの代わりに表示する文字列を入力する。
+      </p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="html,result"
+        data-user="ridetech-code"
+        data-slug-hash="dybRZgq"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="a"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/dybRZgq/"> a</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>&lt;button&gt;タグ</h3>
+      <p>
+        buttonタグはボタンを作成することができる、入力を反映させたりいろいろな事に使える
+      </p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="html,result"
+        data-user="ridetech-code"
+        data-slug-hash="yLBXPQV"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="button"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/yLBXPQV/"> button</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      <div class="tips">
+        <strong>Tips:見出しタグ一覧で</strong>
+        <h1>ｈ1です</h1>
+        <h2>h2です</h2>
+        <h3>h3です</h3>
+        <h4>h4です</h4>
+        <h5>ｈ5です</h5>
+        <h6>h6です</h6>
+        <h6>hiroshiです</h6>
+      </div>
+      <h2>CSSの書き方</h2>
+      <br />
+      <p>
+        CSSはHTMLに直接書き込む方法（&gt;style>タグを使う）、と別のファイルを読み込む方法がある、通常は外部ファイル読み込みを使う
+      </p>
+      <br />
+      <h2>CSSの効果</h2>
+
+      <h3>width</h3>
+      <p>要素の横幅を指定する　縦はheight</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="BaBZmgy"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="width"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/BaBZmgy/"> width</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      <div class="tips">
+        <p>Tips:画像などを画面幅いっぱいに表示する</p>
+        <p>要素を画面幅いっぱいに表示するときはwidth:100%と記述する</p>
+        <p>サイズの指定方法についてはあまりにもたくさんあるので別途紹介</p>
+      </div>
+
+      <h3>color</h3>
+      <p>文字の色を変える</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="GRKEyZK"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="color"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/GRKEyZK/"> color</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      <p>カラーコードの他rgb(255,255,255)や色名（red）などでも指定可能</p>
+
+      <h3>font-size</h3>
+      <p>文字の大きさを変える</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="ZEzyvOa"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="font-size"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/ZEzyvOa/"> font-size</a>
+          by RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>background-color</h3>
+      <p>背景色を変える</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="BaBZJLj"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="background-color"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/BaBZJLj/">
+            background-color</a
+          >
+          by RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>padding</h3>
+      <p>要素の余白を指定する</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="KKPqZNm"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="padding"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/KKPqZNm/"> padding</a>
+          by RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>margin</h3>
+      <p>要素外の余白を指定する</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="wvwepgW"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="margin"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/wvwepgW/"> margin</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+      <h3>shadow</h3>
+      <p>要素に影を追加する</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="eYORyGr"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="shadow"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/eYORyGr/"> shadow</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      <p>
+        各属性の意味は左から横の長さ、縦の長さ、ぼかし範囲、広がり範囲、色です。
+      </p>
+      <p>
+        注：影が次の要素に隠れて見えない場合は要素にposition:relative;をかける
+      </p>
+      出典：<a href="https://demoyanote.com/2018/07/17/post-189/"
+        >https://demoyanote.com/2018/07/17/post-189/</a
+      >
+      <p>なぜpositon:relative;で上に来るのかはわからない[?]</p>
+
+      <h3>flex</h3>
+      <p>要素を横に並べる</p>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="css,result"
+        data-user="ridetech-code"
+        data-slug-hash="MWgorrQ"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="flex"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/MWgorrQ/"> flex</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      <p>なぜそうなるのかはいまいちわからない要勉強[?]</p>
+      <br />
+      <h2>JavaScriptの書き方</h2>
+      <p>
+        CSSと同く、&lt;script>タグを使うか外部ファイルに記述、属性に直接書き込む方法もある[?]
+      </p>
+      <h2>JavaScriptの効果</h2>
+      <h3>画面にアラートを出力</h3>
+      <p
+        class="codepen"
+        data-height="265"
+        data-theme-id="0"
+        data-default-tab="html,result"
+        data-user="ridetech-code"
+        data-slug-hash="RwbgxMP"
+        style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+        data-pen-title="alert"
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/ridetech-code/pen/RwbgxMP/"> alert</a> by
+          RIDETECH-CODE (<a href="https://codepen.io/ridetech-code"
+            >@ridetech-code</a
+          >) on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      <br /><br /><br />
+      <p style="font-size: 15px; color: gray">
+        P.S Flexbox難しい。
+      </p>
+    </div>
+    <footer>
+      <span>コピーライト　仲間大地</span>
+    </footer>
+  </body>
+</html>
