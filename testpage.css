@@ -51,9 +51,31 @@ li {
   margin-top: 60px;
 }
 
-.news {
+.news-header {
   margin: 22px 104px;
   background-color: burlywood;
+}
+
+.news-content {
+  margin: 20px 0px;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.news-content li {
+  border-top: solid 1px #aaa;
+  border-bottom: solid 1px #aaa;
+  margin-bottom: -1px;
+  padding: 5px 0px;
+  font-style: italic;
+  line-height: 18px;
+}
+
+.news-content span::before {
+  font-size: 24px;
+  color: #aaa;
+  content: "|";
+  font-style: initial;
 }
 
 .subColumn {
