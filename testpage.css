@@ -43,6 +43,7 @@ li {
 }
 
 /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
+
 .header-logo img {
   width: 52px;
   float: left;
